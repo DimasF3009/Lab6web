@@ -1,5 +1,4 @@
 # Lab6web
-# Langkah-langkah Praktikum
 
 # Membuat Layout sederhana
 ## Kerangka Layout

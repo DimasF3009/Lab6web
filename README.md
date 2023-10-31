@@ -342,7 +342,6 @@ footer{
 
 ![hasil13](https://github.com/DimasF3009/Lab4web/assets/115356128/00873436-2b9c-436a-9407-45c4bf24054c)
 
-## Pertanyaan dan Tugas
 ### Tambahkan Layout untuk menu About
 ```
 <!DOCTYPE html>

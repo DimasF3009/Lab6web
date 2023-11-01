@@ -137,7 +137,8 @@ Membuat slideshow dengan boostrap
         </button>
       </div>
 ```
-
+## Hasil
+![pict1](https://github.com/DimasF3009/Lab6web/assets/115356128/cb6bbbf3-d0b5-4907-b83a-0071c6d0ecf1)
 
 
 ## Membuat Sidebar
@@ -284,7 +285,7 @@ Membuat artikel lainnya dengan card content
             </article>
 ```
 ### Hasil
-
+![pict2](https://github.com/DimasF3009/Lab6web/assets/115356128/8b69f0e6-511e-40ef-86e4-e834097205fc)
 
 ## Membuat Footer
 Membuat footer dengan html
@@ -315,10 +316,6 @@ footer{
 ```
 ### Hasil
 <img width="687" alt="hasil10" src="https://github.com/DimasF3009/Lab4web/assets/115356128/71afb517-cc9a-489c-a5ba-3f8a86ef5386">
-
-### Hasil Akhir
-
-![hasil13](https://github.com/DimasF3009/Lab4web/assets/115356128/00873436-2b9c-436a-9407-45c4bf24054c)
 
 ### Tambahkan Layout untuk menu About
 ```

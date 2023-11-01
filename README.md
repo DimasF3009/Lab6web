@@ -99,65 +99,46 @@ ul a{
 <img width="960" alt="hasil3" src="https://github.com/DimasF3009/Lab4web/assets/115356128/8b04255a-9720-4b46-8b49-bad62e1ac15f">
 
 ## Membuat Slide show 
-Membuat slideshow dengan html
+Membuat slideshow dengan boostrap
 ```
-<section id="wrapper">
-      <h1 style="margin: 10px 20px;">Indonesia Emas 2045</h1>
-      <!-- Slider -->
-      <div class="slide">
-        <img src="gambar/indonesia1.png" alt="sam1" id="sam1">
-        <img src="gambar/indonesia2.jpg" alt="sam2" id="sam2">
-        <img src="gambar/indonesia3.jpg" alt="sam3" id="sam3">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/gambar/indonesia1.png" class="d-block w-100" alt="indonesia1">
+            <div class="carousel-caption d-none d-md-block">
+      
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/gambar/indonesia2.jpg" class="d-block w-100" alt="indonesia2">
+            <div class="carousel-caption d-none d-md-block">
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/gambar/indonesia3.jpg" class="d-block w-100" alt="indonesia3">
+            <div class="carousel-caption d-none d-md-block">
+            
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="slider-nav">
-            <a href="#sam1"></a>
-            <a href="#sam2"></a>
-            <a href="#sam3"></a>
-      </div>
-</section>
 ```
-Kemudian tambahkan css kedalam html
-```
-.slide{
-    display: flex;
-    aspect-ratio: 16/9;
-    overflow-x: auto;
-    overflow: hidden;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-}
-.slide img{
-    max-width: auto;
-    padding: 30px;
-    flex: 1 0 92%;
-    scroll-snap-align: start;
-    object-fit: cover;
-}
-.slider-nav{
-    display: flex;
-    position: relative;
-    column-gap: 5px;
-    bottom: 55px;
-    left: 150px;
-    z-index: 1;
-    margin-left:300px;
-}
-.slider-nav a{
-    background-color:grey;
-    width:20px;
-    height: 20px;
-    border-radius: 10px;
-    opacity: 0.75;
-}
-.slider-nav a:hover{
-    opacity: 1;
-    transition: 1s;
-}
-```
-### Hasil
-<img width="595" alt="hasil4" src="https://github.com/DimasF3009/Lab4web/assets/115356128/c50abc80-e67b-4c3a-844c-5e0c4db05800">
-<img width="595" alt="hasil5" src="https://github.com/DimasF3009/Lab4web/assets/115356128/21ea9e87-68a4-4df5-b07d-2717cd4ffb2c">
-<img width="595" alt="hasil6" src="https://github.com/DimasF3009/Lab4web/assets/115356128/4004a9be-6212-4b4e-a1c2-cd457174bfcd">
+
+
 
 ## Membuat Sidebar
 Membuat sidebar dengan html
